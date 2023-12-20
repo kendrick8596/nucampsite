@@ -25,9 +25,7 @@
                 </div>
                 <div class="col">
                     <h1>Nucamp
-                        <a href="#reserveForm" class="text-nowrap">
-                            <button type="button" class="btn btn-primary btn-sm bg-info col-2 col-xl-2 col-md-4 mt-4 justify-content-end" style="float: right;">Reserve Campsite</button>
-                        </a>
+                        <button type="button" class="btn btn-primary btn-sm bg-info col-2 col-xl-2 col-md-4 mt-4 justify-content-end" style="float: right;" data-bs-target="#reserveModal" data-bs-toggle="modal">Reserve Campsite</button>
                     </h1>
                     <h2>a better way to Camp</h2>
                 </div>
@@ -97,6 +95,52 @@
             </div>
         </div>
 
+    <!-- reservation modal -->
+        <div class="modal fade modal-lg" id="reserveModal">
+            <div class="modal-dialog col-sm-9 mx-auto">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h3 class="modal-title bg-info text-white">Reserve a Campsite</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div> 
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form id="reserveForm">
+                                <div class="from-group row mb-3">
+                                    <label for="campers" class="col col-form-label col-sm-6">Number of Campers</label>
+                                    <div class="col-6 col-sm-6">
+                                        <select name="campers" id="campers" class="form-select" required>
+                                            <option selected>Select...</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="8">7</option>
+                                            <option value="9">8</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="from-group row mb-3">
+                                    <label for="date" class="col-6 col-sm-6 col-form-label">Date</label>
+                                    <div class="col-6 col-sm-6">
+                                        <input type="date" id="date" name="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="from-group row mb-3">
+                                    <div class="col-6 col-sm-6">
+                                        <button type="button" class="btn btn-secondary btn-sm form-control" style="width: 100px" data-bs-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-primary btn-sm form-control" style="width: 100px">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     <!-- main section -->
     <main class="container">
@@ -147,44 +191,7 @@
                 </div>   
             </div>
         </section>
-        <section class="row row-content">
-            <div class="col-sm-9 mx-auto">
-                <div class="card">
-                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
-                    <div class="card-body">
-                        <form id="reserveForm">
-                            <div class="from-group row mb-3">
-                                <label for="campers" class="col col-form-label col-sm-6">Number of Campers</label>
-                                <div class="col-6 col-sm-6">
-                                    <select name="campers" id="campers" class="form-select" required>
-                                        <option selected>Select...</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="8">7</option>
-                                        <option value="9">8</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="from-group row mb-3">
-                                <label for="date" class="col-6 col-sm-6 col-form-label">Date</label>
-                                <div class="col-6 col-sm-6">
-                                    <input type="date" id="date" name="date" class="form-control">
-                                </div>
-                            </div>
-                            <div class="from-group row mb-3">
-                                <div class="col-6 col-sm-6">
-                                    <button type="button" class="btn btn-primary btn-sm form-control" style="width: 100px">Search</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
     </main>
 
     <!-- footer -->
