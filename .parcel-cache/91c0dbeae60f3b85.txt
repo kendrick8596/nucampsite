@@ -1,4 +1,4 @@
-8675
+8676
 144C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\lmdb\dependencies\lmdb-data-v1\libraries133477327828310140 1
 146C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\caniuse-lite\data\features\script-async.js133477327913285579 0
 134C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\htmlparser2\lib\Tokenizer.d.ts133477327844331388 0
@@ -85,7 +85,7 @@
 129C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\supports-color\browser.js133477327818495317 0
 160C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\@fortawesome\fontawesome-free\svgs\regular\file-word.svg133477329123162388 0
 153C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\csso\node_modules\css-tree\lib\tokenizer\names.js133477327892343769 0
-94C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\css133477387231423096 1
+94C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\css133477409181449706 1
 122C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\sass\sass.node.mjs133477392954276545 0
 145C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\@parcel\core\src\requests\AssetRequest.js133477327868990388 0
 150C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\node_modules\css-select\lib\esm\pseudo-selectors\aliases.js133477327820309488 0
@@ -8673,4 +8673,5 @@
 118C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\dist\nucampsite.3464ddca.js133477407235627456 0
 122C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\dist\nucampsite.3464ddca.js.map133477407235670260 0
 125C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\dist\react-lake-thumb.265ffa0d.jpg133477406799579361 0
-106C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\css\styles.scss133477404111845953 0
+106C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\css\styles.scss133477410924197561 0
+106C:\Users\c15812\Desktop\NucampFolder\NucampFolder\WebDev\1-Web-Dev-Fundamentals\nucampsite\css\_modal.scss133477409665611667 0
