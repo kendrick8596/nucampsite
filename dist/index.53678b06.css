@@ -43,4 +43,14 @@ footer {
   border: solid #5637dd;
 }
 
+#reserverModal .modal-header {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+#loginModal .modal-header {
+  color: #fff;
+  background-color: #901cad;
+}
+
 /*# sourceMappingURL=index.53678b06.css.map */
