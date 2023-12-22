@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kendrick8596/nucampsite#readme",
   "description": "A fictional campsites review website.",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
     "parcel": "^2.10.3"
   },
   "dependencies": {
