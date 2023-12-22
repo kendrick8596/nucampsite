@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
 
     <title>Nucamp: A Better Way to Camp</title>
 </head>
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/img/logo.png" class="img-fluid" />
+                    <img src="img/img/logo.png" alt="nucamp logo" class="img-fluid" />
                 </div>
                 <div class="col">
                     <h1>Nucamp
@@ -35,8 +35,8 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-dar sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/img/logo.png" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
+            <a class="navbar-brand" href="#"><img src="img/img/logo.png" alt="logo" height="30" width="30" /></a>
+            <button title="home" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
@@ -77,7 +77,7 @@
                                     </div>
                                     <div class="col">
                                         <div class="form-check mb-3">
-                                            <input type="checkbox" class="form-check-input">
+                                            <input type="checkbox" class="form-check-input" placeholder="checkbox">
                                             <label class="form-check-label"> Remember me</label>
                                         </div>
                                     </div>
@@ -150,9 +150,9 @@
             <div class="col-md-8 mx-auto">
                 <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
-                        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+                        <button title="Breadcrumb Campground" type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+                        <button title="React Lake Campground" type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+                        <button title="Chrome River Campground" type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -260,10 +260,10 @@
                 </div>
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
-                    <a href="http://instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                    <a href="http://facebook.com/"><i class="fa-brands fa-facebook fa-xl"></i></a>
-                    <a href="http://twitter.com"><i class="fa-brands fa-twitter fa-xl"></i></a>
-                    <a href="http://youtube.com"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                    <a href="http://instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href="http://facebook.com/" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a href="http://twitter.com" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    <a href="http://youtube.com" aria-label="YouTube"><i class="fa-brands fa-youtube fa-xl"></i></a>
                 </div>
                 <div class="col-sm-4 text-center">
                     <i class="fa-solid fa-phone fa-lg text-primary"></i> 1-206-555-1234<br />
@@ -274,7 +274,6 @@
     </footer>
 
     <!-- Bootstrap JavaScript plugins -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
